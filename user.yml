@@ -21,11 +21,11 @@ eureka:
 
 ---
 spring:
-  profile: qa
+  profiles: qa
 
 ---
 spring:
-  profile: prod
+  profiles: prod
   datasource:
     url: jdbc:mysql://localhost/user_gash?createDatabaseIfNotExist=true&useSSL=false
     username: root
